@@ -37,7 +37,7 @@ formIngreso.appendChild(row);
 
 let labelUsuario = document.createElement("label");
 labelUsuario.setAttribute("id", "labelUsuario");
-labelUsuario.textContent = "Nombre de usuario: ";
+labelUsuario.textContent = "Mail: ";
 
 let inputUsuario = document.createElement("input");
 inputUsuario.setAttribute("type", "text");
@@ -52,7 +52,7 @@ row.appendChild(inputUsuario);
 
 // Contraseña
 let labelPass = document.createElement("label");
-labelPass.textContent = "Contraseña: ";
+labelPass.textContent = "Código de acceso: ";
 row.appendChild(labelPass);
 
 let divInputPass = document.createElement("div");
@@ -75,45 +75,11 @@ row.appendChild(div);
 
 let botonIngresar = document.createElement("button");
 botonIngresar.setAttribute("id","botonIngresar");
-botonIngresar.textContent = "ingresar";
+botonIngresar.textContent = "Aceptar";
 botonIngresar.setAttribute("type","submit");
 botonIngresar.classList.add("col-sm-6");
 botonIngresar.classList.add("offset-sm-3");
 botonIngresar.classList.add("w-40","mx-auto");
 div.appendChild(botonIngresar);
-
-// Registrarse
-let rowRegistrarse = document.createElement("div");
-rowRegistrarse.classList.add("row");
-formIngreso.appendChild(rowRegistrarse);
-
-let labelRegistrarse = document.createElement("label");
-labelRegistrarse.classList.add("text-center");
-
-// Crear un enlace dentro del label
-let enlaceRegistrarse = document.createElement("a");
-enlaceRegistrarse.href = "registrarse.html"; // Ruta del archivo
-enlaceRegistrarse.textContent = "Registrarse";
-enlaceRegistrarse.style.color = "#27827B"; // Color opcional
-
-// Agregar el enlace dentro del label
-labelRegistrarse.appendChild(enlaceRegistrarse);
-rowRegistrarse.appendChild(labelRegistrarse);
-
-
-// ¿Olvidaste tu contraseña?
-let labelOlvidaste = document.createElement("label");
-labelOlvidaste.classList.add("text-center");
-
-// Enlace para olvidaste tu contraseña
-let enlaceOlvidaste = document.createElement("a");
-enlaceOlvidaste.href = "olvidaste.html"; // Ruta del archivo
-enlaceOlvidaste.textContent = "¿Olvidaste tu contraseña?";
-enlaceOlvidaste.style.color = "#27827B"; // Color opcional
-
-// Agregar el enlace dentro del label
-labelOlvidaste.appendChild(enlaceOlvidaste);
-rowRegistrarse.appendChild(labelOlvidaste);
-
 
 
