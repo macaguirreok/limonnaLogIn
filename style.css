@@ -1,0 +1,46 @@
+/* index.html*/
+/*******************************************************************/
+
+/*Estilo para el contenedor*/
+
+#ingreso{
+    margin-top: 7em;
+    max-width: 25em;
+    
+}
+
+/*Estilo para el botón de ingresar*/
+
+#botonIngresar{
+   
+    margin-top: 0.5em;
+     
+}
+
+/*Media query para formulario*/
+
+@media (max-width: 550px) {
+    #botonIngresar{
+        position: relative;
+        max-width: 10em;
+        left: 3em;
+    }
+
+    #inputPass{
+        position: relative;
+        max-width: 10em;
+        left: 3em;
+    }
+
+    #inputUsuario{
+        position: relative;
+        max-width: 10em;
+        left: 3em;
+    }
+}
+
+
+
+
+/*******************************************************************/
+
