@@ -112,9 +112,9 @@ input:focus {
 
 /* Estilos adicionales */
 #ingreso {
-    margin-top: 7em;
+    margin-top: 3em;
     max-width: 30em;
-    margin-bottom: 7em;
+    margin-bottom: 3em;
 }
 
 #botonIngresar {
