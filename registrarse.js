@@ -13,7 +13,7 @@ formIngreso.setAttribute("class", "container");
 //Estilos de bootstrap para el formulario:
 formIngreso.classList.add("border");
 formIngreso.classList.add("p-3");
-formIngreso.classList.add("container", "w-75"); /* Tamaño del formulario */
+formIngreso.classList.add("container", "w-90"); /* Tamaño del formulario */
 
 
 // Hacer que el formulario se organice en una columna vertical
